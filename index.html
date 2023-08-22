@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
@@ -15,14 +17,52 @@
   </style>
 </head>
 <body>
-
-  Features
-  Company
-  Careers
-  About
-
-  Login
-  Register
+  <div class="container">
+    <img id src="./images/image-hero-mobile.png" alt="sorry!">
+    <div class="topbar">
+      <img src="./images/logo.svg" alt="error">
+      <div class="leftbar">
+        <div class="feature">
+          <div>Features</div>
+          <span id="caret"></span>
+          <ul class="feature-list">
+            <li class="feature-items">
+              <img src="./images/icon-todo.svg" alt="error">
+              <span class="feature-list">Todo List</span>
+            </li>
+            <li class="feature-items">
+              <img src="./images/icon-calendar.svg" alt="error">
+              <span class="feature-list">Calendar</span>
+            </li>
+            <li class="feature-items">
+              <img src="./images/icon-reminders.svg" alt="error">
+              <span class="feature-list">Reminders</span>
+            </li>
+            <li class="feature-items">
+              <img src="./images/icon-planning.svg" alt="error">
+              <span class="feature-list">Planning</span>
+            </li>
+          </ul>
+        </div>
+        <div class="company">
+          <div>Company</div>
+          <span class="caret"></span>
+          <ul class="company-list">
+            <li class="company-items">History</li>
+            <li class="company-items">Our team</li>
+            <li class="company-items">Blog</li>
+          </ul>
+        </div>
+        <div>Careers</div>
+        <div>About</div>
+      </div>
+      <div class="rightbar">
+        <i>chekc</i>
+        <button class="btn">Login</button>
+        <button class="btn">Register</button>
+      </div>
+    </div>
+  </div>
 
   Make remote work
 

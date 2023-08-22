@@ -1,0 +1,30 @@
+:root{
+    --near-white :  #fafafa;
+    --dim-gray :  	#696969;
+    --near-black :  #141414;
+
+    --bold : 500;
+    --extra-bold : 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+    z-index: 1;
+}
+
+.container{
+    
+    z-index: 2;
+}
+
+.topbar{
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
